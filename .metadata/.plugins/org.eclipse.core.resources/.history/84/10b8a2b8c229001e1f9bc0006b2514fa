@@ -1,0 +1,23 @@
+package com.simple.basic.mapper;
+
+import java.util.HashMap;
+
+import com.simple.command.ScoreVO;
+
+public interface TestMapper {
+	//xml에서 실행시킬 추상메서드
+	public String getTime();
+	
+	//insert - 단일값 전달(마이바티스는 단일값을 받는다!!)
+	public int insertOne(String name);
+	
+	//insert - 다중값 전달(매개변수는 하나)
+	public int insertTwo(ScoreVO vo);
+	
+	//insert - 다중값 전달(맵)(매개변수는 하나)
+	public int insertThree(HashMap<String, Object> map);
+	
+	//insert - 다중값 실험(매개변수 여러개)
+	public int insertFour(String name, String kor, String eng);
+		
+}

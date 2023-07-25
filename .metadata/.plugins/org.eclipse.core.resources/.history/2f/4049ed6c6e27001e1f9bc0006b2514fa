@@ -1,0 +1,12 @@
+package com.simple.basic;
+
+@RunWith(SpringJUnit4ClassRunner.class) //Junit테스트 진행
+@ContextConfiguration("file:src/main/webapp/config/root-context.xml") //테스트를....
+public class JDBCTest {
+	
+	@Test //junit이 해당 메서드를 실행
+	public void testCode() {
+		System.out.println("실행됨");
+	}
+
+}

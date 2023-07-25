@@ -1,0 +1,38 @@
+package com.simple.service;
+
+import java.util.ArrayList;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.simple.command.BoardVO;
+import com.simple.mapper.BoardMapper;
+
+
+@Service("boardService")
+public class BoardServiceImpl implements BoardService {
+	
+	//맵퍼와 서비스 연결
+	@Autowired
+	BoardMapper boardMapper;
+	
+	@Override
+	public void boardRegist(BoardVO vo) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public ArrayList<BoardVO> getList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void boardDelete(int num) {
+		boardMapper.boardDelete(num);
+		
+	}
+
+
+}

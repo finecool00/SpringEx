@@ -1,0 +1,71 @@
+package com.simple.controller;
+
+import java.util.Arrays;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+//컨트롤러는 테이블별(주제별)로 하나씩 만들어진다!!!
+@Controller
+@RequestMapping("/request") //각 메서드의 공통분모
+public class RequestController {
+
+	//화면을 띄우는 
+	//들어오는 경로와 나가는 경로는 별개다!!!!
+	//@RequestMapping("/req_ex01") //실제로는 /request/req_ex01과 같음
+	//public String ex01() {
+		//return "request/req_ex01";
+	//}
+	@RequestMapping("/req_ex01") //실제로는 /request/req_ex01과 같음
+	public void ex01_1() {
+		//return "request/req_ex01"; //위의 경우와 같음!!!
+	}
+	
+	//get요청만 허용
+	//@RequestMapping(value = "/basic1", method = RequestMethod.GET) //기본으로 설정된 속성은 value, 여러개 적을 시 콤마로 구분
+	@GetMapping("/basic1")
+	public void basic1() {
+		System.out.println("basic요청");
+	}
+	
+	//Post요청만 허용
+	//@RequestMapping(value = "/basic2" , method = RequestMethod.POST)
+	@PostMapping("/basic2")
+	public void basic2() {
+		System.out.println("basic2요청");
+	}
+	
+	//get, post 둘다 허용
+	@RequestMapping(value = "/basic3")
+	public void basic3() {
+		System.out.println("basic3요청");
+	}
+	
+	
+	////////////////////////////////////////////////////////
+	//파라미터 값 받기
+	@RequestMapping("/req_ex02")
+	public String ex02() {
+		return "request/req_ex02";
+	}
+	
+	//1. 전통적인 방법(request객체를 통해서!)
+	@RequestMapping("/param1")
+	public String param1(HttpServletRequest request) {
+		
+		String name = request.getParameter("name");
+		String age = request.getParameter("age");	
+		String[] inter = request.getParameterValues("inter");
+		
+		System.out.println(name);
+		System.out.println(age);
+		System.out.println(Arrays.toString(inter));
+		
+		
+		return "request/result";
+	}
+}

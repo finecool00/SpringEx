@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+	
+	<!-- 데이터베이스 연결 설정 -->
+	<bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig" >
+		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
+		<property name="jdbcUrl" value="jdbc:oracle:thin:@localhost:1521:xe"/>
+		<property name="username" value="HR" />
+		<property name="password" value="HR" />
+	</bean>
+	
+	<!-- REF를 통한 의존성 주입 -->
+	<bean id="ds" class="com.zaxxer.hikari.HikariDataSource" >
+		<constructor-arg ref="hikariConfig" />
+	</bean>	
+	
+</beans>

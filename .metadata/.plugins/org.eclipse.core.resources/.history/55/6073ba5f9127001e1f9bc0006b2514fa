@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+  
+  <!-- namespace에는 구현인터페이스 풀 경로로 적는다 -->
+  <mapper namespace="com.simple.basic.mapper.TestMapper">
+  	
+  	<select>
+  	
+  	</select>
+  
+  </mapper>

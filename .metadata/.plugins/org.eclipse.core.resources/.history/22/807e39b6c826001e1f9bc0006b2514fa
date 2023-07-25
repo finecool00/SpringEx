@@ -1,0 +1,36 @@
+package com.simple.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/quiz")
+public class QuizController {
+
+	@RequestMapping("/quiz01")
+	public String quiz01() {
+		return "quiz/quiz01";
+	}
+
+	@RequestMapping("/birthday")
+	public String birthday() {
+		
+		return "quiz/quiz01_ok";
+	}
+	
+	
+	@RequestMapping("/quiz02")
+	public String quiz02() {
+		return "quiz/quiz02";
+	}
+	
+	@RequestMapping("/quiz03")
+	public String quiz03() {
+		return "quiz/quiz03";
+	}
+	
+	
+	
+	
+	
+}

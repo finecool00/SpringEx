@@ -1,0 +1,18 @@
+package com.simple.dao;
+
+import org.springframework.stereotype.Repository;
+
+import com.simple.command.ScoreVO;
+
+public class ScoreDAOImpl implements ScoreDAO {
+	//DAO를 만들어서.... 서비스영역에서 사용됨...!!
+	@Repository("xxx") //컴포넌트 스캔에 읽히면 자동으로 빈으로 등록
+	
+	
+	@Override
+	public void scoreRegist(ScoreVO vo) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.simple.controller;
+
+import org.springframework.web.servlet.mvc.multiaction.MultiActionController;
+
+//핸들러 어댑터에 연결이 되려면 특정 클래스 상속
+public class HomeController extends MultiActionController{
+
+	
+	
+	
+}

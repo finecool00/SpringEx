@@ -1,0 +1,24 @@
+package com.simple.basic;
+
+import javax.sql.DataSource;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+@RunWith(SpringJUnit4ClassRunner.class) //Junit테스트 진행
+@ContextConfiguration("file:src/main/webapp/WEB-INF/config/root-context.xml") //테스트를....
+public class JDBCTest {
+	
+	private DataSource dataSource; // 
+	
+	
+	
+	
+	@Test //junit이 해당 메서드를 실행
+	public void testCode() {
+		System.out.println("실행됨");
+	}
+
+}

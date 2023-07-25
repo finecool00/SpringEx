@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Tue Jul 25 19:25:12 KST 2023
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\user\\.m2\\repository\\org\\springframework\\spring-web\\5.0.7.RELEASE\\spring-web-5.0.7.RELEASE.jar=C\:\\Users\\user\\Desktop\\course\\spring\\apache-tomcat-9.0.78\\apache-tomcat-9.0.78\\wtpwebapps\\SpringMyweb\\WEB-INF\\lib\\spring-web-5.0.7.RELEASE.jar
+org.eclipse.jst.jee.server\:SpringMyweb=C\:\\Users\\user\\Desktop\\course\\spring\\apache-tomcat-9.0.78\\apache-tomcat-9.0.78\\wtpwebapps\\SpringMyweb

@@ -1,0 +1,13 @@
+package com.simple.dao;
+
+import com.simple.command.ScoreVO;
+
+public class ScoreDAOImpl implements ScoreDAO {
+
+	@Override
+	public void scoreRegist(ScoreVO vo) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

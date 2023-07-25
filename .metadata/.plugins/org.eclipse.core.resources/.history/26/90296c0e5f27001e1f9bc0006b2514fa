@@ -1,0 +1,30 @@
+package com.simple.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Service;
+
+import com.simple.command.ScoreVO;
+import com.simple.dao.ScoreDAO;
+
+@Service("scoreService") //컴포넌트 스캔에 읽히면 자동으로 빈 등록
+public class ScoreServiceImpl implements ScoreService {
+
+	//DAO영역
+	@Autowired
+	@Qualifier("xxx")
+	ScoreDAO scoreDAO;
+	
+	
+	
+	@Override
+	public void scoreRegist(ScoreVO vo) {
+		
+		System.out.println(vo.toString());
+		
+	}
+
+	
+	
+	
+}

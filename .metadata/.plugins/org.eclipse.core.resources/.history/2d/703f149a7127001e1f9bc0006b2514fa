@@ -1,0 +1,6 @@
+# key=value
+
+ds.driverClassName=oracle.jdbc.driver.OracleDriver
+ds.url=jdbc:oracle:thin:@localhost:1521/xe
+ds.username=HR
+ds.password=HR

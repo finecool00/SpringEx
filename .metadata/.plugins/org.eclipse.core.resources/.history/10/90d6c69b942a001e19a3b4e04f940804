@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles" %> <!-- 태그라이브러리 사용해야함 (JSTL과 동일) -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<!-- 타일즈의 템플릿 - 템플릿으로 사용할 모형을 선언 -->
+	
+	<tiles:insertAttribute name="header"/>
+
+	<tiles:insertAttribute name="body"/>
+
+	<tiles:insertAttribute name="footer"/>
+
+</body>
+</html>

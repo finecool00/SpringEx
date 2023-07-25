@@ -1,0 +1,6 @@
+package com.simple.basic;
+
+@RunWith(SpringJUnit4ClassRunner.class) //Junit테스트 진행
+public class JDBCTest {
+
+}

@@ -1,0 +1,17 @@
+package com.simple.dao;
+
+import java.util.ArrayList;
+
+import org.springframework.stereotype.Repository;
+
+import com.simple.command.ScoreVO;
+
+public interface ScoreDAO {
+
+	//별다른 일이 없다면! 서비스와 동일하게 만들면 된다(참고)
+	public void scoreRegist(ScoreVO vo);
+
+	public ArrayList<ScoreVO> getScores();
+	
+	public void scoreDelete(int index);
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+  "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+  "http://tiles.apache.org/dtds/tiles-config_2_1.dtd"> 
+ <!-- 도큐타입 같은 설정은 공식홈페이지에서 확인 및 참고 가능 -->
+ <!-- .jsp파일을 받는다!?! -->
+ 
+ 
+ <tiles-definitions>
+ 	<definition name="baseDefault" template="/WEB-INF/tiles/templateDefault.jsp">
+ 		<put-attribute name="header" value="/WEB-INF/tiles/header.jsp"/>
+ 		<put-attribute name="body" value=""/>
+ 		<put-attribute name="footer" value="/WEB-INF/tiles/footer.jsp"/>
+ 	</definition>
+ </tiles-definitions>
+ 
+ 
