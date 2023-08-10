@@ -6889,3 +6889,24 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.co
 2023-07-25 19:24:45,287 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
 2023-07-25 19:24:45,288 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-07-25 19:24:45,289 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-07-27 15:19:46,267 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-07-27 15:19:48,051 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33
+2023-07-27 15:19:48,398 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-27 15:19:48,403 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2023-07-27 15:19:48,410 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-27 15:19:48,411 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-07-27 19:27:53,337 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-07-27 19:28:28,318 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33
+2023-07-27 19:28:28,557 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-27 19:28:28,561 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2023-07-27 19:28:28,576 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-27 19:28:28,577 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-07-27 19:28:29,745 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-27 19:28:29,746 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\user\Desktop\course\spring\workspace\SpringMake\src\main\resources
+2023-07-27 19:28:29,747 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-27 19:28:29,747 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\user\Desktop\course\spring\workspace\SpringMake\src\test\resources
+2023-07-27 19:28:30,360 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33
+2023-07-27 19:28:30,375 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-27 19:28:30,376 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2023-07-27 19:28:30,377 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-27 19:28:30,378 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
